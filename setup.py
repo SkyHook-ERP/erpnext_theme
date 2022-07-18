@@ -7,11 +7,11 @@ with open("requirements.txt") as f:
 from business_theme_v14 import __version__ as version
 
 setup(
-	name="business_theme_v14",
+	name="erpnext_theme",
 	version=version,
-	description="Business Theme for ERPNext / Frappe",
-	author="Midocean Technologies Pvt Ltd",
-	author_email="sagar@midocean.tech",
+	description="Theme for Skyhook ERP",
+	author="Pegas Technologies Solutions Ltd",
+	author_email="admin@pegas.io",
 	packages=find_packages(),
 	zip_safe=False,
 	include_package_data=True,

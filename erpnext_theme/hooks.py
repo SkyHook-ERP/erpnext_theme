@@ -1,27 +1,27 @@
 from . import __version__ as app_version
 
-app_name = "business_theme_v14"
-app_title = "Business Theme V14"
-app_publisher = "Midocean Technologies Pvt Ltd"
-app_description = "Business Theme for ERPNext / Frappe"
+app_name = "erpnext_theme"
+app_title = "Sky Hook ERP Theme"
+app_publisher = "Pegas Technology Solutions Ltd"
+app_description = "Sky Hook ERP Theme"
 app_icon = "octicon octicon-file-directory"
 app_color = "grey"
-app_email = "sagar@midocean.tech"
+app_email = "admin@pegas.io"
 app_license = "MIT"
 
 # Includes in <head>
 # ------------------
 
 # include js, css files in header of desk.html
-app_include_css = "/assets/business_theme_v14/css/business_theme_v14.css"
-# app_include_js = "/assets/business_theme_v14/js/business_theme_v14.js"
+app_include_css = "/assets/erpnext_theme/css/erpnext_theme.css"
+# app_include_js = "/assets/erpnext_theme/js/erpnext_theme.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/business_theme_v14/css/business_theme_v14.css"
-# web_include_js = "/assets/business_theme_v14/js/business_theme_v14.js"
+# web_include_css = "/assets/erpnext_theme/css/erpnext_theme.css"
+# web_include_js = "/assets/erpnext_theme/js/erpnext_theme.js"
 
 # include custom scss in every website theme (without file extension ".scss")
-# website_theme_scss = "business_theme_v14/public/scss/website"
+# website_theme_scss = "erpnext_theme/public/scss/website"
 
 # include js, css files in header of web form
 # webform_include_js = {"doctype": "public/js/doctype.js"}
@@ -58,27 +58,27 @@ app_include_css = "/assets/business_theme_v14/css/business_theme_v14.css"
 
 # add methods and filters to jinja environment
 # jinja = {
-# 	"methods": "business_theme_v14.utils.jinja_methods",
-# 	"filters": "business_theme_v14.utils.jinja_filters"
+# 	"methods": "erpnext_theme.utils.jinja_methods",
+# 	"filters": "erpnext_theme.utils.jinja_filters"
 # }
 
 # Installation
 # ------------
 
-# before_install = "business_theme_v14.install.before_install"
-# after_install = "business_theme_v14.install.after_install"
+# before_install = "erpnext_theme.install.before_install"
+# after_install = "erpnext_theme.install.after_install"
 
 # Uninstallation
 # ------------
 
-# before_uninstall = "business_theme_v14.uninstall.before_uninstall"
-# after_uninstall = "business_theme_v14.uninstall.after_uninstall"
+# before_uninstall = "erpnext_theme.uninstall.before_uninstall"
+# after_uninstall = "erpnext_theme.uninstall.after_uninstall"
 
 # Desk Notifications
 # ------------------
 # See frappe.core.notifications.get_notification_config
 
-# notification_config = "business_theme_v14.notifications.get_notification_config"
+# notification_config = "erpnext_theme.notifications.get_notification_config"
 
 # Permissions
 # -----------
@@ -117,39 +117,39 @@ app_include_css = "/assets/business_theme_v14/css/business_theme_v14.css"
 
 # scheduler_events = {
 # 	"all": [
-# 		"business_theme_v14.tasks.all"
+# 		"erpnext_theme.tasks.all"
 # 	],
 # 	"daily": [
-# 		"business_theme_v14.tasks.daily"
+# 		"erpnext_theme.tasks.daily"
 # 	],
 # 	"hourly": [
-# 		"business_theme_v14.tasks.hourly"
+# 		"erpnext_theme.tasks.hourly"
 # 	],
 # 	"weekly": [
-# 		"business_theme_v14.tasks.weekly"
+# 		"erpnext_theme.tasks.weekly"
 # 	],
 # 	"monthly": [
-# 		"business_theme_v14.tasks.monthly"
+# 		"erpnext_theme.tasks.monthly"
 # 	],
 # }
 
 # Testing
 # -------
 
-# before_tests = "business_theme_v14.install.before_tests"
+# before_tests = "erpnext_theme.install.before_tests"
 
 # Overriding Methods
 # ------------------------------
 #
 # override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "business_theme_v14.event.get_events"
+# 	"frappe.desk.doctype.event.event.get_events": "erpnext_theme.event.get_events"
 # }
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
 # along with any modifications made in other Frappe apps
 # override_doctype_dashboards = {
-# 	"Task": "business_theme_v14.task.get_dashboard_data"
+# 	"Task": "erpnext_theme.task.get_dashboard_data"
 # }
 
 # exempt linked doctypes from being automatically cancelled
@@ -185,7 +185,7 @@ app_include_css = "/assets/business_theme_v14/css/business_theme_v14.css"
 # --------------------------------
 
 # auth_hooks = [
-# 	"business_theme_v14.auth.validate"
+# 	"erpnext_theme.auth.validate"
 # ]
 
 # Translation
