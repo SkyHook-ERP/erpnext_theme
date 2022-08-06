@@ -225,9 +225,6 @@ header .form-control:focus{
 header ul#navbar-breadcrumbs{
     margin-top: -8px;
 }
-header .form-control:focus{
-    background-color: var(--white-color) !important;
-}
 
 
 
@@ -261,7 +258,6 @@ input{
     outline: 0;
     border: 1px solid var(--primary-color);
     box-shadow: none;
-    background: rgba(255, 160, 10, 0.14) !important;
 }
 .navbar .navbar-nav a.nav-link{
     color: var(--white-color);
