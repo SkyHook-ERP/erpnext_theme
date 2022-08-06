@@ -256,7 +256,6 @@ input{
 }
 .form-control{
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-    background-color: #f2f2f2 !important;
 }
 .form-control:focus{
     outline: 0;
